@@ -33,8 +33,8 @@ class MyStreamer(TwythonStreamer):
         self.disconnect()
 
 # Instantiate from our streaming class
-stream = MyStreamer('fXm25dDhm1RQOGlyJw5BWMF2b', 'dg4ItiNRQ5JWQBIujENA4yjZQzSyuevyuqi2ePpatVP5PmsC7W', 
-                    '743785736814604290-oQCACzR5YwsReElpZFHi4vG6bhYaH7c', '5eE5PdOZSt3wUzx3FvMGUTwmkO1sQOYII2EGtGU9ZBk1t')
+stream = MyStreamer('KEY1', 'KEY2', 
+                    'KEY3', 'KEY4')
 # Start the stream
 # locations='-74,40,-73,41' '-2,6,1,7'
 stream.statuses.filter(locations='-74,40,-73,41')
